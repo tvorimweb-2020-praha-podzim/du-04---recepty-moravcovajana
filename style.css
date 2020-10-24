@@ -120,9 +120,35 @@ h2{
         overflow-wrap: normal;
         max-width: 500px;
 }
-
-
 }
+
+
+@media (min-width: 860px) {
+    .doporucujeme{
+        flex-direction: row;
+    }
+    .hlavni-recept{
+        min-height: 400px;
+        flex-grow: 1; 
+    }
+
+    .sloupec{
+        flex-grow: 2;
+    }
+
+    .recept{
+        flex-grow: 1;
+        min-height: 200px;
+    }
+    .recept-nazev-hlavni{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 1.75rem;
+    }
+}
+
+
 /* -------------------------------------------------- */
 
 /*
