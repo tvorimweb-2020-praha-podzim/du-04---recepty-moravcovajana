@@ -25,6 +25,15 @@ h2 {
     color: silver;
 }
 
+.doporucujeme {
+    display: flex;
+    flex-direction: column;
+}
+
+.hlavni-recept{
+    flex-grow: 2;
+}
+
 /* -------------------------------------------------- */
 
 /*
